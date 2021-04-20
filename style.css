@@ -26,6 +26,7 @@ body {
   padding: 15px 40px;
   transition: all 0.2s ease;
   cursor: pointer;
+  outline: none;
 }
 .btn button:hover {
   background: #12284c;
