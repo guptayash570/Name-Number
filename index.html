@@ -5,11 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Name Number</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <div class="heading">
         <h1>Name Number Generator</h1>
+        <select name="option" id="option">
+            <option value="a1" default> a=1 , b=2....</option>
+            <option value="a0">a=0 , b=1....</option>
+            <option value="ascii">ASCII Character</option>
+          </select>
     </div>
     <div class="container">
         <div class="input-container">
@@ -25,6 +30,6 @@
     <button id="btn" onclick="calculate()">Calculate</button>
 
     </div>
-    <script src="app.js"></script>
+    <script src="/app.js"></script>
 </body>
 </html>
